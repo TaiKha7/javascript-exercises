@@ -5,23 +5,23 @@ describe('add', () => {
     expect(calculator.add(0, 0)).toBe(0);
   });
 
-  test.skip('adds 2 and 2', () => {
+  test('adds 2 and 2', () => {
     expect(calculator.add(2, 2)).toBe(4);
   });
 
-  test.skip('adds positive numbers', () => {
+  test('adds positive numbers', () => {
     expect(calculator.add(2, 6)).toBe(8);
   });
 });
 
 describe('subtract', () => {
-  test.skip('subtracts numbers', () => {
+  test('subtracts numbers', () => {
     expect(calculator.subtract(10, 4)).toBe(6);
   });
 });
 
 describe('sum', () => {
-  test.skip('computes the sum of an empty array', () => {
+  test('computes the sum of an empty array', () => {
     expect(calculator.sum([])).toBe(0);
   });
 
@@ -49,7 +49,7 @@ describe('multiply', () => {
 });
 
 describe('power', () => {
-  test.skip('raises one number to the power of another number', () => {
+  test('raises one number to the power of another number', () => {
     expect(calculator.power(4, 3)).toBe(64); // 4 to third power is 64
   });
 });
@@ -67,11 +67,11 @@ describe('factorial', () => {
     expect(calculator.factorial(2)).toBe(2);
   });
 
-  test.skip('computes the factorial of 5', () => {
+  test('computes the factorial of 5', () => {
     expect(calculator.factorial(5)).toBe(120);
   });
 
-  test.skip('computes the factorial of 10', () => {
+  test('computes the factorial of 10', () => {
     expect(calculator.factorial(10)).toBe(3628800);
   });
 });
